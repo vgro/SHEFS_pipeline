@@ -11,7 +11,7 @@
 cp -a /home/xxxxxx/Scratch/SHEFS/R_Library/ $TMPDIR
 cp -a /home/xxxxxx/Scratch/SHEFS/CHELSA/ $TMPDIR
 cp -a /home/xxxxxx/Scratch/SHEFS/CHELSA_future/ $TMPDIR
-cp /home/xxxxxx/Scratch/SHEFS/SA_functions_vivi.R $TMPDIR
+cp /home/xxxxxx/Scratch/SHEFS/SA_functions_CBER.R $TMPDIR
 
 cd $TMPDIR
 
