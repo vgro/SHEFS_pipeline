@@ -25,7 +25,7 @@ rm -r ~/Scratch/SHEFS/dummy/
 rm ~/Scratch/SHEFS/dummy.e$JOB_ID
 rm ~/Scratch/SHEFS/dummy.o$JOB_ID
 rm ~/Scratch/SHEFS/dummy_log.txt
-R --no-save < /home/xxxxxx/Scratch/SHEFS/delete_jobs/dummy.R > delete.out
+
 
 
 
