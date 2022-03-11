@@ -8,7 +8,7 @@
 
 # read species names
 wd <- paste(my_path)
-files <- list.files(paste(wd,'occurrence_records/points/rarefied/',sep=''))
+files <- list.files(paste(wd,'04_occurrence_records/GBIF_ready/points/rarefied/',sep=''))
 files
 
 
