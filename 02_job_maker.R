@@ -8,12 +8,12 @@
 
 # set environment and load dummy files
 wd <- paste(my_path)
-files <- list.files(paste(wd,'move_to_myriad/points/rarefied/',sep=''))
-out_dir_R <- paste(wd,'move_to_myriad/r_jobs_all/',sep='')
-out_dir_sh <- paste(wd,'move_to_myriad/sh_scripts_all/',sep='')
+files <- list.files(paste0(wd,'04_occurrence_records/GBIF_ready/points/rarefied/'))
+out_dir_R <- paste0(wd,'05_code/r_jobs/')
+out_dir_sh <- paste0(wd,'05_code/sh_scripts/')
 
-dummy_sh <- paste(wd,'SA_dummy.sh',sep='')
-dummy_R <- paste(wd,'SA_dummy.R',sep='')   
+dummy_sh <- paste(wd,'05_code/SA_dummy.sh',sep='')
+dummy_R <- paste(wd,'05_code/SA_dummy.R',sep='')    
 
 
 # create R scripts
