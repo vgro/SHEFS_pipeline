@@ -3,17 +3,17 @@
 # to run SDM pipeline on cluster 
 #
 # author: Vivienne Groner
-# date: 09.03.2022
+# date: 18.03.2022
 ########################################################
 
 # set environment and load dummy files
 wd <- paste(my_path)
-files <- list.files(paste0(wd,'04_occurrence_records/GBIF_ready/points/rarefied/'))
+files<-list.files(paste0(wd,'04_occurrence_records/GBIF_ready/points/rarefied/'))
 out_dir_R <- paste0(wd,'05_code/r_jobs/')
 out_dir_sh <- paste0(wd,'05_code/sh_scripts/')
 
 dummy_sh <- paste(wd,'05_code/SA_dummy.sh',sep='')
-dummy_R <- paste(wd,'05_code/SA_dummy.R',sep='')    
+dummy_R <- paste(wd,'05_code/SA_dummy.R',sep='')   
 
 
 # create R scripts
